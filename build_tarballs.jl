@@ -2,11 +2,12 @@
 # `julia build_tarballs.jl --help` to see a usage message.
 using BinaryBuilder
 name = "LibAOM"
-version = v"1.0"
+version = v"1.0.0"
 # Collection of sources required to build imagemagick
 
 sources = [
-    "$WORKSPACE/srcdir/aom",
+    "https://src.fedoraproject.org/lookaside/pkgs/aom/aom-1.0.0.tar.gz" =>
+  "",
 ]
 
 # Bash recipe for building across all platforms
