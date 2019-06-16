@@ -6,14 +6,13 @@ version = v"1.0.0"
 # Collection of sources required to build imagemagick
 
 sources = [
-    "https://src.fedoraproject.org/lookaside/pkgs/aom/aom-1.0.0.tar.gz" =>
+    "http://www.andrews-corner.org/downloads/SBo/libaom-1.0.0.r1804.gcb43f766c.tar.gz" =>
   "1337d282ac7b936471b5677558feeefd8a1786f9cac7cf897a08222816a530b9",
 ]
 
 # Bash recipe for building across all platforms
 script = raw"""
 cd $WORKSPACE/srcdir
-git clone https://aomedia.googlesource.com/aom
 cd aom
 apk install yasm
 cmake -DCMAKE_INSTALL_PREFIX=$prefix -DCMAKE_TOOLCHAIN_FILE=/opt/$target/$target.toolchain -DBUILD_SHARED_LIBS=1
