@@ -7,7 +7,7 @@ version = v"1.0.0"
 
 sources = [
     "http://www.andrews-corner.org/downloads/SBo/libaom-1.0.0.r1804.gcb43f766c.tar.gz" =>
-  "1337d282ac7b936471b5677558feeefd8a1786f9cac7cf897a08222816a530b9",
+  "365ebf37fdbe6265c4e2a6815c9d19b0caa0a1279a04e5b0eea8fc77e3847420",
 ]
 
 # Bash recipe for building across all platforms
