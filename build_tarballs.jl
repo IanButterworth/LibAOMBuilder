@@ -7,7 +7,7 @@ version = v"1.0.0"
 
 sources = [
     "https://src.fedoraproject.org/lookaside/pkgs/aom/aom-1.0.0.tar.gz" =>
-  "e0c24630961195d9bd65aa8d43732469e8248e8918faa942cfb881769d11515e",
+  "1337d282ac7b936471b5677558feeefd8a1786f9cac7cf897a08222816a530b9",
 ]
 
 # Bash recipe for building across all platforms
